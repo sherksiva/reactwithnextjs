@@ -8,7 +8,7 @@ const person: Person = {
   role: "Senior Software Engineer",
   avatar: "/images/avatar.jpg",
   email: "sivaprakashraman@outlook.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -32,11 +32,6 @@ const social: Social = [
     icon: "linkedin",
     //link: "https://www.linkedin.com/company/once-ui/",
     link: "https://www.linkedin.com/in/sivaprakash-raman-71ba4911a/"
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
   },
   {
     name: "Email",
@@ -87,7 +82,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -95,9 +90,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        IT Professional with over 8+ years of experience in Full-Stack development, specializing in dynamic web projects and Cloud-based E-Commerce Point of Sale (POS) systems. Proficient in React, Angular, Node JS, and JavaScript , demonstrating strong technical skills across multiple programming languages. Proven track record in managing projects effectively while maintaining excellent customer relations. Expertise in all stages of the development cycle ensures timely and successful project delivery.
       </>
     ),
   },
@@ -106,42 +99,71 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "US Technology International Private Limited",
+        timeframe: "07/2024 - 05/2025",
+        role: "SENIOR SOFTWARE ENGINEER",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+	   <>
+            Had a chance to work in client place "Applied Materials".
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
+          /*{
             src: "/images/projects/project-01/cover-01.jpg",
             alt: "Once UI Project",
             width: 16,
             height: 9,
-          },
+          },*/
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Photon Pvt, Ltd",
+        timeframe: "10/2020 - 05/2023",
+        role: "SENIOR SOFTWARE DEVELOPER",
+        achievements: [
+	  <>
+           Had a chance to work in client place "samsung".
+          </>,
+	  <>
+            While work on client "Samsung", had a chance to perform a associate team lead for internal members.
+          </>,
+          <>
+            Got "60%" hike while work for client samsung"
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "Tech Mango Pvt, Ltd. (SMI Group of Companies)",
+        timeframe: "04/2020 - 10/2020",
+        role: "SENIOR SOFTWARE DEVELOPER",
+        achievements: [
+        ],
+        images: [],
+      },
+      {
+        company: "Sri Mookambika info Solutions Private Limited (SMI Group of Companies)",
+        timeframe: "03/2019 - 04/2020",
+        role: "SENIOR SOFTWARE DEVELOPER",
+        achievements: [
+           <>
+           Had a chance to work with client name called "GHX", USA.
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "Great Innovus Solutions Pvt, Ltd",
+        timeframe: "09/2015 - 02/2019",
+        role: "FULL STACK DEVELOPER",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+           Had a chance to work with client name called "ONEVIEW COMMERCE", USA.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          Got a BEST PERFORMER OF THE YEAR @ 2018.
+          </>
         ],
         images: [],
       },
